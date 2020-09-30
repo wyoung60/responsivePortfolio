@@ -4,31 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand">Wesley Young</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#collapsibleNavbar"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a href="./contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="./portfolio.html" class="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <body>
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro dolores
-      illum alias consequatur beatae nostrum dignissimos facere eligendi nulla
-      hic. Mollitia repellendus cum nulla fugit eaque, nemo, voluptatum
-      laboriosam dolorum dignissimos a blanditiis iste, quam distinctio
-      pariatur? Quo doloremque maxime, similique id impedit officiis tenetur
-      laboriosam esse ducimus quidem, et quod, laudantium aspernatur dignissimos
-      inventore nemo adipisci nihil iusto earum incidunt odio. Fugiat incidunt
-      officiis ab quasi unde vero dicta sapiente cumque iste beatae facere
-      repellendus aut delectus, deleniti quibusdam harum doloribus molestias
-      consequuntur similique exercitationem omnis. Et rerum hic possimus odit
-      voluptatibus. Consectetur, dignissimos ut? Sequi, itaque voluptate
-      laudantium quam, temporibus corporis autem doloremque beatae iusto
-      quibusdam saepe neque exercitationem debitis ullam, quae iure vel eius!
-      Magnam, quod deserunt deleniti distinctio iure rem, dolorum ipsum a, eius
-      repudiandae vitae placeat ratione voluptates. Soluta quia nisi atque
-      reiciendis, vel voluptatibus eaque libero perferendis praesentium cumque
-      velit nulla! Officia dolorum porro ipsum alias, itaque odit unde
-      necessitatibus voluptatibus earum assumenda dolorem modi veniam ab dolore
-      nemo officiis fuga. Praesentium impedit reiciendis amet. Quia
-      exercitationem pariatur labore amet laboriosam. Quaerat ad animi fuga
-      voluptatum blanditiis nisi maiores tenetur distinctio? Sapiente in quia
-      provident eaque quas veritatis, libero hic officiis rem laborum itaque.
-    </p>
+    <div class="container-fluid pt-3">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col">
+              <h1>Contact</h1>
+            </div>
+          </div>
+          <form>
+            <div class="row pt-5">
+              <div class="col-sm-8">
+                <label for="userName">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="userName"
+                  placeholder="Enter Name"
+                />
+              </div>
+            </div>
+            <div class="row pt-5">
+              <div class="col-sm-8">
+                <label for="userEmail">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="userEmail"
+                  placeholder="Email Address"
+                />
+              </div>
+            </div>
+            <div class="row pt-5">
+              <div class="col-sm-8">
+                <label for="userMessage">Message</label>
+                <textarea
+                  type="text"
+                  class="form-control"
+                  id="userMessage"
+                  placeholder="Message"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row pt-5">
+              <div class="col-sm-8">
+                <button type="button" class="btn btn-dark">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

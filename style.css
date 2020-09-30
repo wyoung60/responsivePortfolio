@@ -1,0 +1,17 @@
+.float-left {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.image {
+  padding: 5px;
+  margin: 5px;
+  height: 350px;
+  width: 350px;
+}
+
+body {
+  background-color: darkgray;
+}
