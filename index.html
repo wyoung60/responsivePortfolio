@@ -4,22 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me</title>
+    <!-- reset css -->
     <link rel="stylesheet" href="./Assets/reset.css" />
+    <!-- google fonts link -->
     <link
       href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans+Condensed:wght@300&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap link -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <!-- Custom css link -->
     <link rel="stylesheet" href="./Assets/style.css" />
   </head>
   <body>
+    <!-- Navbar class -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <a class="navbar-brand">Wesley Young</a>
+      <!-- Responsive button -->
       <button
         class="navbar-toggler"
         type="button"
@@ -28,6 +34,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- Navbar items -->
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
@@ -42,86 +49,64 @@
         </ul>
       </div>
     </nav>
-    <div class="container-fluid pt-3">
+    <!-- Container for main content with added padding to the top-->
+    <main class="container-fluid pt-3">
+      <!-- Row for card -->
       <div class="row">
-        <div class="col-lg-2 col-md-2"></div>
-        <div class="col-sm-12 col-lg-8 col-md-8">
-          <div class="card">
+        <!-- Spacing for medium and large screens -->
+        <section class="col-lg-2 col-md-2"></section>
+        <!-- Centering for medium and large screens -->
+        <section class="col-lg-8 col-md-8">
+          <!-- Adding card layout -->
+          <figure class="card">
+            <!-- Card contents -->
             <div class="card-body">
-              <div class="row">
-                <div class="col">
+              <!-- Header sub-row -->
+              <header class="row">
+                <section class="col">
                   <h1>About Me</h1>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <hr />
-                </div>
-              </div>
-              <div class="row pt-3">
-                <div class="col-sm-12">
+                </section>
+              </header>
+              <!-- Thematic break -->
+              <hr />
+              <!-- Bio pic and article sub-row -->
+              <article class="row pt-3">
+                <section class="col">
+                  <!-- Bio pic -->
                   <img
-                    src="https://images.unsplash.com/photo-1533090631-338411005233?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                    alt="Zion"
+                    src="./Assets/Images/Aboutpic.JPG"
+                    alt="Yosemite"
                     class="float-left"
                   />
+                  <!-- Bio article -->
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Amet repellendus cum nam molestiae minus mollitia quia a
-                    aperiam! Voluptatem, est mollitia. Laborum fugit reiciendis
-                    veritatis in nisi voluptate nesciunt delectus dolore quaerat
-                    dolor accusamus veniam, quia velit cupiditate fuga alias
-                    error exercitationem culpa maiores mollitia blanditiis
-                    ratione enim atque! Dolorum, labore. Iure cupiditate
-                    laboriosam voluptatum eos vitae deserunt doloribus repellat,
-                    aliquam labore possimus ducimus omnis fugiat commodi
-                    consequuntur beatae vero aliquid porro perspiciatis quasi?
-                    Sit dolorum illum incidunt, iste beatae sequi tenetur nemo
-                    atque itaque, natus neque nesciunt culpa, sapiente ex
-                    excepturi necessitatibus aperiam nostrum saepe! Voluptatum
-                    magni, repellat voluptatem veniam, vel minus molestiae nam
-                    laudantium deserunt quos iste qui, illo rem quae quam enim
-                    odit modi omnis itaque ipsum iusto harum illum fugit.
-                    Explicabo nihil placeat sed dolores commodi tempora, optio
-                    accusamus voluptatibus veritatis itaque reprehenderit illum
-                    quibusdam voluptatem ad expedita perspiciatis ducimus
-                    quidem. Minus accusantium repudiandae dolor nam esse
-                    adipisci voluptatibus amet nesciunt ex! Ipsa quis placeat
-                    explicabo, ex labore ab corrupti nostrum ut modi amet
-                    impedit nam facilis mollitia neque maiores, magnam aut quo
-                    ad. Dolorum harum, blanditiis sequi aliquam quibusdam fugiat
-                    culpa officiis eum quod reprehenderit nihil repudiandae eos.
-                    Pariatur blanditiis fugit id, ipsa nulla labore similique
-                    corporis consequuntur voluptate dignissimos ducimus eligendi
-                    voluptates ex recusandae a incidunt perferendis, alias
-                    veniam reiciendis unde, tenetur harum natus. Repellat autem
-                    nulla aut atque quo repellendus inventore non provident
-                    quaerat, asperiores perspiciatis temporibus consequatur
-                    deleniti voluptas eius aspernatur vitae fugiat quam
-                    voluptatem! Itaque eius totam maxime vitae magni obcaecati
-                    voluptates, natus iste dignissimos perspiciatis
-                    reprehenderit, rerum ducimus impedit labore exercitationem
-                    temporibus, dolore minima. Voluptatibus, officiis
-                    dignissimos consectetur enim maxime commodi vitae ab velit
-                    praesentium iure at, ut delectus libero! Eveniet temporibus
-                    nostrum hic necessitatibus iste, aliquid voluptatibus
-                    assumenda debitis numquam ex nulla excepturi, nihil earum
-                    veniam repellendus totam atque!
+                    My name is Wesley Young. I currently live in Castle Rock,
+                    CO. I just moved here from Kalamazoo, MI in August looking
+                    to change things up in my life. I enjoy the outdoors
+                    (Colorado tops Michigan in that department in my opinion). I
+                    love to hike, camp, fish, snowboard, bike, and rock climb
+                    (only indoors so far). I've only been rock climbing for
+                    about a year and it quickly became my favorite hobby. I look
+                    forward to learning to climb real rock in the near future. I
+                    have a degree in Mechanical Engineering from Western
+                    Michigan University and worked in the field as an intern and
+                    in a product engineering role for 6 years. I have enjoyed
+                    some of my experience and I worked for an amazing company
+                    but it doesn't feel like the correct career path for me.
+                    While going through school and during my tenure as an
+                    engineer I was able to gain some exposure to coding and
+                    thoroughly enjoyed it. Now seemed like the perfect
+                    opportunity to make a career change so I enrolled into the
+                    coding bootcamp.
                   </p>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Minima ex quas ullam facilis consectetur ut nam aut
-                    consequuntur maiores, incidunt molestias necessitatibus,
-                    impedit architecto suscipit, inventore eius quibusdam
-                    aperiam! Deleniti.
-                  </p>
-                </div>
-              </div>
+                </section>
+              </article>
             </div>
-          </div>
-        </div>
+          </figure>
+        </section>
       </div>
-    </div>
+    </main>
+    <!-- Bootstrap imports -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

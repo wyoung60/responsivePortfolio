@@ -3,21 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
+    <!-- reset css -->
     <link rel="stylesheet" href="./reset.css" />
+    <!-- Google fonts link -->
     <link
       href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans+Condensed:wght@300&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap link -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <!-- Custom css link -->
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- Navbar class copied from index.html -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <a class="navbar-brand">Wesley Young</a>
       <button
@@ -42,52 +47,62 @@
         </ul>
       </div>
     </nav>
-    <div class="container-fluid p-3">
+    <!-- Container for page main content with added padding to the top -->
+    <main class="container-fluid p-3">
       <div class="row">
-        <div class="col-md-2 col-lg-2"></div>
-        <div class="col-md-8 col-lg-8">
-          <div class="card">
+        <!-- Spacing for medium and large screens -->
+        <section class="col-md-2 col-lg-2"></section>
+        <!-- Centering for medium and large screens -->
+        <section class="col-md-8 col-lg-8">
+          <!-- Card layout -->
+          <figure class="card">
+            <!-- Card contents -->
             <div class="card-body">
+              <!-- Header sub-row -->
               <div class="row">
-                <div class="col">
+                <section class="col">
                   <h1>Portfolio</h1>
-                </div>
+                </section>
               </div>
+              <!-- Thematic break -->
               <hr />
+              <!-- Row for images -->
               <div class="row">
-                <div class="col text-left">
+                <!-- Justify images left -->
+                <section class="col text-left">
                   <img
-                    src="https://via.placeholder.com/150"
-                    alt=""
+                    src="./Images/Yosemite1.JPG"
+                    alt="Waterfall"
                     class="rounded"
                   />
                   <img
-                    src="https://via.placeholder.com/150"
-                    alt=""
+                    src="./Images/Yosemite2.JPG"
+                    alt="Forest creek"
                     class="rounded"
                   />
                   <img
-                    src="https://via.placeholder.com/150"
-                    alt=""
+                    src="./Images/Yosemite3.JPG"
+                    alt="El Cap"
                     class="rounded"
                   />
                   <img
-                    src="https://via.placeholder.com/150"
-                    alt=""
+                    src="./Images/Sequoia.JPG"
+                    alt="Sequoia National Park"
                     class="rounded"
                   />
                   <img
-                    src="https://via.placeholder.com/150"
-                    alt=""
+                    src="./Images/KingsCanyon.JPG"
+                    alt="Kings Canyon"
                     class="rounded"
                   />
-                </div>
+                </section>
               </div>
             </div>
-          </div>
-        </div>
+          </figure>
+        </section>
       </div>
-    </div>
+    </main>
+    <!-- Bootstrap links -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

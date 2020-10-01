@@ -4,63 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
+    <!-- reset css -->
     <link rel="stylesheet" href="./reset.css" />
+    <!-- google fonts link -->
     <link
       href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans+Condensed:wght@300&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap link -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <!-- Custom css -->
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <a class="navbar-brand">Wesley Young</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#collapsibleNavbar"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a href="./contact.html" class="nav-link">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a href="./portfolio.html" class="nav-link">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="../index.html" class="nav-link">About</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
   <body>
-    <div class="container-fluid pt-3">
+    <!-- Navbar class same as index.html -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand">Wesley Young</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="./contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="./portfolio.html" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Container for main content with added padding to the top -->
+    <main class="container-fluid pt-3">
+      <!-- row for card -->
       <div class="row">
-        <div class="col-md-2 col-lg-2"></div>
-        <div class="col-md-8 col-lg-8">
-          <div class="card">
+        <!-- Spacing for medium and large screens -->
+        <section class="col-md-2 col-lg-2"></section>
+        <!-- Centering for medium and large screens -->
+        <section class="col-md-8 col-lg-8">
+          <!-- Adding card layout -->
+          <figure class="card">
+            <!-- Card contents -->
             <div class="card-body">
-              <div class="row">
-                <div class="col">
+              <!-- Header for sub-row -->
+              <header class="row">
+                <section class="col">
                   <h1>Contact</h1>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col">
-                  <hr />
-                </div>
-              </div>
+                </section>
+              </header>
+              <!-- Thematic break -->
+              <hr />
+              <!-- Adding user input form -->
               <form>
-                <div class="row pt-5">
-                  <div class="col">
+                <!-- Row for name -->
+                <div class="row pt-3">
+                  <section class="col">
                     <label for="userName">Name</label>
                     <input
                       type="text"
@@ -68,10 +79,11 @@
                       id="userName"
                       placeholder="Enter Name"
                     />
-                  </div>
+                  </section>
                 </div>
-                <div class="row pt-5">
-                  <div class="col">
+                <!-- Row for email -->
+                <div class="row pt-3">
+                  <section class="col">
                     <label for="userEmail">Email</label>
                     <input
                       type="text"
@@ -79,10 +91,11 @@
                       id="userEmail"
                       placeholder="Email Address"
                     />
-                  </div>
+                  </section>
                 </div>
-                <div class="row pt-5">
-                  <div class="col">
+                <!-- Row for message -->
+                <div class="row pt-3">
+                  <section class="col">
                     <label for="userMessage">Message</label>
                     <textarea
                       type="text"
@@ -91,19 +104,21 @@
                       placeholder="Message"
                       rows="3"
                     ></textarea>
-                  </div>
+                  </section>
                 </div>
-                <div class="row pt-5">
-                  <div class="col-sm-8">
+                <!-- Row for submit button -->
+                <div class="row pt-3">
+                  <section class="col">
                     <button type="button" class="btn btn-dark">Submit</button>
-                  </div>
+                  </section>
                 </div>
               </form>
             </div>
-          </div>
-        </div>
+          </figure>
+        </section>
       </div>
-    </div>
+    </main>
+    <!-- Bootstrap links -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
