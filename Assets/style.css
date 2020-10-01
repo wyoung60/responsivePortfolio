@@ -5,13 +5,19 @@
   margin-right: 10px;
 }
 
-.image {
-  padding: 5px;
+.rounded {
   margin: 5px;
-  height: 350px;
-  width: 350px;
 }
 
 body {
   background-color: darkgray;
+}
+
+a {
+  font-family: "Banger", cursive;
+}
+
+h1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 50px;
 }

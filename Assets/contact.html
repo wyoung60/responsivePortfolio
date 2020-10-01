@@ -6,6 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./reset.css" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
@@ -39,54 +43,64 @@
   </nav>
   <body>
     <div class="container-fluid pt-3">
-      <div class="card">
-        <div class="card-body">
-          <div class="row">
-            <div class="col">
-              <h1>Contact</h1>
+      <div class="row">
+        <div class="col-md-2 col-lg-2"></div>
+        <div class="col-md-8 col-lg-8">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col">
+                  <h1>Contact</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <hr />
+                </div>
+              </div>
+              <form>
+                <div class="row pt-5">
+                  <div class="col">
+                    <label for="userName">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="userName"
+                      placeholder="Enter Name"
+                    />
+                  </div>
+                </div>
+                <div class="row pt-5">
+                  <div class="col">
+                    <label for="userEmail">Email</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="userEmail"
+                      placeholder="Email Address"
+                    />
+                  </div>
+                </div>
+                <div class="row pt-5">
+                  <div class="col">
+                    <label for="userMessage">Message</label>
+                    <textarea
+                      type="text"
+                      class="form-control"
+                      id="userMessage"
+                      placeholder="Message"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="row pt-5">
+                  <div class="col-sm-8">
+                    <button type="button" class="btn btn-dark">Submit</button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
-          <form>
-            <div class="row pt-5">
-              <div class="col-sm-8">
-                <label for="userName">Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="userName"
-                  placeholder="Enter Name"
-                />
-              </div>
-            </div>
-            <div class="row pt-5">
-              <div class="col-sm-8">
-                <label for="userEmail">Email</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="userEmail"
-                  placeholder="Email Address"
-                />
-              </div>
-            </div>
-            <div class="row pt-5">
-              <div class="col-sm-8">
-                <label for="userMessage">Message</label>
-                <textarea
-                  type="text"
-                  class="form-control"
-                  id="userMessage"
-                  placeholder="Message"
-                  rows="3"
-                ></textarea>
-              </div>
-            </div>
-            <div class="row pt-5">
-              <div class="col-sm-8">
-                <button type="button" class="btn btn-dark">Submit</button>
-              </div>
-            </div>
-          </form>
         </div>
       </div>
     </div>
