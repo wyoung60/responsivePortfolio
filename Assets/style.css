@@ -15,8 +15,9 @@ body {
   background-color: darkgray;
 }
 
-a {
+.navbar-brand {
   font-family: "Banger", cursive;
+  font-size: 40px;
 }
 
 h1 {
